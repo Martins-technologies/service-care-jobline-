@@ -190,9 +190,9 @@ const SignIn = () => {
                   <input type="checkbox" className="rounded border-slate-600 bg-slate-800 accent-cyan-400" />
                   Remember me
                 </label>
-                <Link to={paths.helpCenter} className="text-cyan-400 hover:text-cyan-300 font-medium">
+                <a href="https://www.jooblie.com/forgot-password" className="text-cyan-400 hover:text-cyan-300 font-medium">
                   Forgot password?
-                </Link>
+                </a>
               </div>
 
               {error ? <p className="text-sm text-red-400" role="alert">{error}</p> : null}
